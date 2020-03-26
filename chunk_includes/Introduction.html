@@ -1,0 +1,148 @@
+<!-- Set the type of the document as an HTML page -->
+<!DOCTYPE html>
+<!-- Set the language -->
+<html lang="zh-Hant">
+
+<!-- Main attributes/decorations of the page (independant from the text) -->
+<head>
+  <title> Experiment </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    H1 { text-align: center}
+    body {
+      background-color: #f4e1d2;
+      text-align: left;
+      font-size: 88%;
+      font-family: Century Gothic;
+      text-align: left;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .body{
+      width: 100%;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 95%;
+      clear: both;
+      padding: 2%;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 10px 10px 5px #888888;
+      background-color: white;
+    }
+
+    input[type=submit] {
+      width: 135px;
+      height: 70px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+
+<body class="body">
+  
+<form style="width: 40em;">
+<!-- Start of the actual, visible body of the file -->
+	<h1>Welcome！</h1>
+<p><font size=3>Thanks a lot for participating in this experiment. <br> This is a general welcoming message.</font></p>
+<p>
+
+<hr/>
+
+<h1>This is a first section.</h1>
+<font size=3>Instructions could be given here, for example.</font>
+</p>
+<p><font size=3>In this experiment, you will read sentences that are not complete.</font> </p>
+<p>
+<h2>Your task is to complete the sentence with the first word you think of.</p>
+<p>
+<font size=3>Once you wrote your word, you can click on <b>enter</b> to continue.</font>
+  </p>
+
+
+<hr />
+
+<h1>This is another section, if needed.</h1>
+
+
+<hr />
+
+<h1>Personnal information</h1>
+<font size=3>Personnal and relevant background information can be asked here.</font>
+<p>
+<font size=3>Do not forget to mention the (academic) purpose of the experiment, as well as ethical information.</font>
+</p>
+
+<table>
+	<tr>
+		<td colspan="2" style="width: 30em; padding-bottom: 1em;">
+		<i></i>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Age：</b></td><td><input name="age" type="text" size="30"  /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="age"></label></td>
+	</tr>
+	<tr>
+		<td><b>Gender：</b></td>
+		<td><input name="sex" type="radio" value="male"  id="csexmale" /><label for="csexmale">male </label>
+            <input name="sex" type="radio" value="female" id="csexfemale"/><label for="csexfemale">female</label>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="sex"></label></td>
+	</tr>
+	<tr>
+		<td><b>Profession/major (if student):</b></td><td><input name="profession" type="text" size="30"  /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="profession"></label></td>
+	</tr>
+	<tr>
+		<td><b>Native language</b></td><td><input name="language" type="text" size="30"  /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="language"></label></td>
+	</tr>  
+	<tr>
+		<td><b>Place of birth</b> (Country & city)：</td><td><input name="region" type="text" size="30"  /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="region"></label></td>
+	</tr> 
+	<tr>
+		<td><b>email</b>：</td><td><input name="email" type="text" size="30"  /></td>
+	</tr>
+	<tr>
+		<td><b>Other languages：</b></td>
+		<td>Score: 1 to 7, 1 = bad, 7 = fluent</td>
+	</tr>
+	<tr>
+		<td><input name="L2" type="text" size="30" ></td>
+		<td><input name="L2n" type="text" size="30"/></td>
+	</tr>
+	<tr>
+		<td><input name="L3" type="text" size="30" ></td>
+		<td><input name="L3n" type="text" size="30"/></td>
+	</tr>
+    <tr>
+		<td><input name="L4" type="text" size="30" ></td>
+		<td><input name="L4n" type="text" size="30"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="padding-bottom: 1em;" height="70" align="center"><input type="checkbox" class="obligatory"  name="consent" id="consentcx" /><label for="consentcx"><font size="4"><b> I understand what the experiment is about, and I agree to participate. </b></font></label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="consent"></label></td>
+	</tr>
+</table>
+
+</form>
+

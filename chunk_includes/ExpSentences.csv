@@ -1,0 +1,9 @@
+Sentence,ItemNumber,Condition,Group 
+I drank my coffee with ,1,transparent,A
+I went to the park by ,2,transparent,A
+I ate pasta using ,3,transparent,A
+I wish I could ,4,non-transparent,A
+I forgot to bring my ,5,non-transparent,A
+I already started ,6,non-transparent,A
+I called you last ,7,transparent,A
+I destroyed your ,8,non-transparent,A
